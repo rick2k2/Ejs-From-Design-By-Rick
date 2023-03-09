@@ -9,10 +9,10 @@ app.get("/", (req, res) => {
   res.status(200).render("index", { pageName: "Home Page" });
 });
 app.post("/register", (req, res) => {
-  res.status(200).render("Data saved");
+  res.status(200).send("Register Data saved");
 });
 app.post("/login", (req, res) => {
-  res.status(200).render("Data saved");
+  res.status(200).send("Login Data saved");
 });
 app.get("/login", (req, res) => {
   res.status(200).render("loginform",{pageName: "Login"});
