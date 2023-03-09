@@ -42,6 +42,13 @@ main{
     background: rgb(9, 252, 179);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+.login_reg_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 .login_btn{
     color: #fff;
     background: #2c2c;
@@ -98,16 +105,17 @@ footer{
     align-items: center;
     height: 70vh;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     gap: 10px;
     background-image: url('../img/regimg1.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50px 0px 50px 0px;
+    margin-left: 255px;
 }
 .reg_form input{
-    width: 60%;  
+    width: 65%;  
     padding: 7px 40px;  
     outline: none;
     border: none;
@@ -125,12 +133,13 @@ footer{
     align-items: center;
     height: 50vh;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     gap: 10px;
     background-image: url('../img/regimg.gif');
     border-radius: 0px 50px 50px 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: -155px;
 }
 .image_field{
     width: 60%;

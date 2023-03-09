@@ -8,7 +8,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.status(200).render("index", { pageName: "Home Page" });
 });
-app.post("/", (req, res) => {
+app.post("/register", (req, res) => {
+  res.status(200).render("Data saved");
+});
+app.post("/login", (req, res) => {
   res.status(200).render("Data saved");
 });
 app.get("/login", (req, res) => {
