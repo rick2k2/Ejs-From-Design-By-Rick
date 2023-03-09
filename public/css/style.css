@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1rem 2rem;
+    background: #2c2c2c;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    color: #ff0199;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    flex-direction: column;
+    gap: 50px;
+    background: rgb(9, 252, 179);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.login_btn{
+    color: #fff;
+    background: #2c2c;
+    padding: 0.5rem 3rem;
+    font-size: 18px;
+    font-family: cursive;
+    border: none;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.login_btn:hover{
+    color: #fff;
+    background: #ff039a;
+    padding: 5px 40px;
+    font-size: 18px;
+    font-family: cursive;
+    border: none;
+    cursor: pointer;
+}
+.login_btn a{
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background: #2c2c2c;
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about :first-child{
+    color: #ff039a;
+    font-weight: bold;
+}
+.about :last-child{
+    color: blue;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 70%;
+}
+.reg_heading{
+    font-size: 25px;
+}
+.reg_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+    background-image: url('../img/regimg1.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 0px 50px 0px;
+}
+.reg_form input{
+    width: 60%;  
+    padding: 7px 40px;  
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+}
+.reg_form input::placeholder{
+    color: #000;
+}
+.login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    background-image: url('../img/regimg.gif');
+    border-radius: 0px 50px 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image_field{
+    width: 60%;
+    display: flex;
+    background: #fff;
+    background: transparent;
+    border-bottom: 1px solid #000;
+}
+.image_field input[type="file"]{
+    width: 100%;
+}
+.reg_btn{
+    padding: 8px 50px;
+}
+.login_form input[type="text"]{
+    color: rgb(48, 82, 250);
+}
+.login_form input[type="text"]::placeholder{
+    color: rgb(48,82,250);
+}
+.login_form input{
+    width: 60%;  
+    padding: 7px 40px;  
+    outline: none;
+    background: transparent;   
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.login_btn2{
+    padding: 8px 40px;
+    color: #fff;
+    background: rgb(4, 25, 248);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.login_btn2:hover{
+    padding: 8px 40px;
+    color: #fff;
+    background: rgb(237, 8, 176);
+}
